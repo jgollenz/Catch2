@@ -46,7 +46,7 @@ TEST_CASE( "Factorials are computed", "[factorial]" ) {
 
 This will compile to a complete executable which responds to [command line arguments](command-line.md#top). If you just run it with no arguments it will execute all test cases (in this case there is just one), report any failures, report a summary of how many tests passed and failed and return the number of failed tests (useful for if you just want a yes/ no answer to: "did it work").
 
-Anyway, as the tests above as written will pass, but there is a bug.
+Anyway, the tests above as written will pass, but there is a bug.
 The problem is that `Factorial(0)` should return 1 (due to [its
 definition](https://en.wikipedia.org/wiki/Factorial#Factorial_of_zero)).
 Let's add that as an assertion to the test case:
